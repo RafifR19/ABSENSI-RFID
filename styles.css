@@ -1,0 +1,47 @@
+/* styles.css */
+
+.navbar {
+  background-color: #000;
+  /* Warna latar belakang navbar */
+  color: #fff;
+  /* Warna teks navbar */
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 20px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav li a:hover {
+  text-decoration: aqua;
+}
+
+.navbar-logo {
+  width: 30px;
+  /* Atur lebar logo sesuai kebutuhan */
+  margin-left: 10px;
+  /* Atur jarak antara logo */
+  margin-top: 10px;
+  /* Sesuaikan dengan posisi yang diinginkan */
+}
